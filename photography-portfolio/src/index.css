@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-white text-black font-cormorant w-screen;
+}
+
+html.dark {
+  @apply [color-scheme:dark];
+}
