@@ -103,7 +103,7 @@ const Header = () => {
                 </Modal>
             </header>
 
-            <header className='fixed w-100vw top-0 flex justify-between items-center py-10 px-8 z-[1000] backdrop-blur backdrop-filter sm:hidden'>
+            <header className='fixed w-screen top-0 flex justify-between items-center py-10 px-8 z-[1000] backdrop-blur backdrop-filter sm:hidden'>
                 <section>
                     <Link to='/'>
                         <h2 className='font-bold text-2xl hover:scale-105 transition-all duration-300'>

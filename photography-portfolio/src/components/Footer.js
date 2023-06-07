@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className='bg-primary text-white flex justify-between items-center py-6 px-16 relative mobile:p-5'>
+        <footer className='bg-primary text-white flex justify-between items-center py-6 px-16 relative mobile:p-5 mobile:grid mobile:gap-4 mobile:grid-cols-3 mobile:text-center'>
             <section className='mobile:text-xs'>
                 <ul>
                     <li>
