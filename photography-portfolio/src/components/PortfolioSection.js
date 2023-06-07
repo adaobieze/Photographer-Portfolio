@@ -322,7 +322,7 @@ const PortfolioSection = () => {
                         key={index}
                         src={photo.image}
                         alt={photo.tags.join(', ')}
-                        className="w-full h-auto object-cover rounded-lg cursor-pointer"
+                        className="w-full h-36 object-fill rounded-lg cursor-pointer"
                         onClick={() => handlePhotoClick(index)}
                     />
                 ))}
